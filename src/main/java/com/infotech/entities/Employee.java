@@ -8,7 +8,6 @@ import java.util.Date;
 
 @Entity
 @Table(name="employee_table")
-@DiscriminatorValue (value = "employee_type")
 public class Employee extends Person{
 
     @Column(name="salary",columnDefinition="DECIMAL(7,2)")
